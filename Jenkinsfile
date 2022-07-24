@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage ('clone') {
+        stage ('build') {
             steps {
-                git 'https://github.com/jeevangs11222/maven-helloworld.git'
+               echo 'building job'
             }
         }
         
